@@ -25,7 +25,7 @@ def main():
     server.ehlo()
     server.starttls()
     print("logging into gmail...")
-    server.login("aaricstexter2000", "doctorpepper!!!")
+    server.login("aaricstexter2000", "PASSWORD")
     while True:
         print("running...")
         for phone_number in phone_numbers:
