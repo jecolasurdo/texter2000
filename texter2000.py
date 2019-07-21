@@ -10,13 +10,13 @@ funny_things = [
     "Is your refrigerator running????"
 ]
 
+# append vtext.com for verizon numbers.
+# tmobile numbers need tmomail.net appended.
+# tmobile tends to block texts from email. Some brief research shows there might
+# be a workaround for this, but I haven't tried it out.
+# https://support.t-mobile.com/thread/138127
 phone_numbers = [
-    "2539510932@vtext.com",
-    "2532506766@vtext.com",
-    "4063964139@tmomail.net",
-    "4065440189@tmomail.net",
-    "2532022846@vtext.com",
-    "4065811317@tmomail.net" #eric
+    "1112223333@vtext.com",
 ]
 
 def main():
